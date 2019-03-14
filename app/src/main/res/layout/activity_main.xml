@@ -25,28 +25,23 @@
 
             <Button
                 android:id="@+id/button1_1"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button1_2"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button1_3"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button1_4"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button1_5"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
         </TableRow>
 
         <TableRow
@@ -55,28 +50,23 @@
 
             <Button
                 android:id="@+id/button2_1"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button2_2"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button2_3"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button2_4"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button2_5"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
         </TableRow>
 
         <TableRow
@@ -85,28 +75,23 @@
 
             <Button
                 android:id="@+id/button3_1"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button3_2"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button3_3"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button3_4"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button3_5"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
         </TableRow>
 
         <TableRow
@@ -115,28 +100,23 @@
 
             <Button
                 android:id="@+id/button4_1"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button4_2"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button4_3"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button4_4"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button4_5"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
         </TableRow>
 
         <TableRow
@@ -145,28 +125,23 @@
 
             <Button
                 android:id="@+id/button5_1"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button5_2"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button5_3"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button5_4"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
 
             <Button
                 android:id="@+id/button5_5"
-                style="@style/GridButton"
-                android:background="@drawable/button_background" />
+                style="@style/GridButton" />
         </TableRow>
     </TableLayout>
 
