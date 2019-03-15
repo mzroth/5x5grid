@@ -20,9 +20,7 @@ class MainActivity : AppCompatActivity() {
             button5_1, button5_2, button5_3, button5_4, button5_5
         ).forEach {
             it.setOnClickListener {
-                it.setBackgroundColor(ContextCompat.getColor(this, if (((it.background as? ColorDrawable)?.color)
-                    == ContextCompat.getColor(this, R.color.button_default)) R.color.button_pressed else R.color.button_default
-                ))
+                it.setBackgroundColor(ContextCompat.getColor(this, if (((it.background as? ColorDrawable)?.color) == ContextCompat.getColor(this, R.color.button_default)) R.color.button_pressed else R.color.button_default))
             }
         }
     }
