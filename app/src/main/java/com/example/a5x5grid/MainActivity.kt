@@ -22,8 +22,7 @@ class MainActivity : AppCompatActivity() {
             it.setOnClickListener {
                 it.setBackgroundColor(ContextCompat.getColor(this, when((it.background as? ColorDrawable)?.color) {
                     ContextCompat.getColor(this, R.color.button_default) -> R.color.button_pressed
-                    ContextCompat.getColor(this, R.color.button_pressed) -> R.color.button_default
-                    else -> 0
+                    else -> R.color.button_default
                 }))
             }
         }
