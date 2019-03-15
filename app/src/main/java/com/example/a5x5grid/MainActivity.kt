@@ -20,11 +20,10 @@ class MainActivity : AppCompatActivity() {
             button5_1, button5_2, button5_3, button5_4, button5_5
         ).forEach {
             it.setOnClickListener {
-                val color = (it.background as ColorDrawable).color
+                val color = (it.background as? ColorDrawable)?.color
                 when(color) {
                     R.color.button_default -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_pressed))
                     R.color.button_pressed -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_default))
-                    else -> null
                 }
             }
         }
