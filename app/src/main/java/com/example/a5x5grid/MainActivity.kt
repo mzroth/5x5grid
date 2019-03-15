@@ -3,9 +3,8 @@ package com.example.a5x5grid
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
-
+import android.graphics.drawable.ColorDrawable
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,7 +20,12 @@ class MainActivity : AppCompatActivity() {
             button5_1, button5_2, button5_3, button5_4, button5_5
         ).forEach {
             it.setOnClickListener {
-                it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_pressed))
+                val color = (it.background as ColorDrawable).color
+                when(color) {
+                    R.color.button_default -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_pressed))
+                    R.color.button_pressed -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_default))
+                    else -> null
+                }
             }
         }
     }
