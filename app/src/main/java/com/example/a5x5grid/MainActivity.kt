@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
             it.setOnClickListener {
                 val color = (it.background as? ColorDrawable)?.color
                 when(color) {
-                    R.color.button_default -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_pressed))
-                    R.color.button_pressed -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_default))
+                    ContextCompat.getColor(this, R.color.button_default) -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_pressed))
+                    ContextCompat.getColor(this, R.color.button_pressed) -> it.setBackgroundColor(ContextCompat.getColor(this, R.color.button_default))
                 }
             }
         }
